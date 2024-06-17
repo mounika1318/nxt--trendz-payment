@@ -1,3 +1,4 @@
+
 .cart-container {
   display: flex;
   justify-content: center;
@@ -22,6 +23,23 @@
     width: 80%;
     max-width: 1110px;
   }
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-all-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #0b69ff;
+  cursor: pointer;
 }
 
 .cart-heading {
